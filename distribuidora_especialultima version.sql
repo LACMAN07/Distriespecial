@@ -19,7 +19,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `distribuidora_especial`
+-- Base de datos: `distribuidora_especial`-- Es necesario siempre agregar esto después de cada exportación de la BD
+CREATE DATABASE `disribuidora_especial` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `distribuidora_especial`; 
+
 --
 
 DELIMITER $$
